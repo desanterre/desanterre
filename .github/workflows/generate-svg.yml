@@ -1,0 +1,31 @@
+name: Generate Loading SVG
+
+on:
+  push:
+    paths:
+      - 'scripts/generateLoadingSvg.js'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Generate loading SVG
+        run: |
+          npm init -y
+          npm install
+          node scripts/generateLoadingSvg.js
+          
+      - name: Commit and push SVG
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/loading.svg
+          git commit -m "chore: regenerate loading.svg [skip ci]" || echo "No changes to commit"
+          git push
