@@ -39,17 +39,6 @@
 
 ## Current Projects
 
-- **CHZ Nexus Bot**  
-  A WebSocket automation bot for [chapatiz.com](https://www.chapatiz.com), powered by `FastAPI` and `asyncio`.  
-  Handles real-time chat parsing, logs, and can emulate visitor chat — eventually with full user login support.  
-  Has a control panel via FastAPI UI (`/docs`), terminal interface, and logs live activity.  
-  Future plans:
-  - Real user authentication
-  - Automatic reactions / chatbot logic
-  - Room teleportation
-  - Full UI for anyone to connect as guest or user
-  - AI integration 
-
-- **Hackintosh on HP Spectre x360**  
-  Because why not put macOS on a tablet-laptop hybrid and lose sleep.
+- **PNR**
+More infos coming soon...
 
