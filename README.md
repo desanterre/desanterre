@@ -28,9 +28,7 @@
 <p align="center">
   Ex-Ubisoft, ex-Scaleway. I used to build cloud products and keep the internal cloud systems running at Ubisoft.<br>
   Today I'm freelance, and co-founder of <strong>Patine'N'Rythme (PNR)</strong>, an app for roller skating rides.<br>
-  I love working close to the metal, automating workflows, and making sure things run smoothly at scale.<br>
-  Most of my days are spent in <code>nvim</code>, scripting, breaking things (on purpose), and patching up the aftermath.<br>
-  Terminal > UI, always.
+  Passionate about roller skating and technology.
 </p>
 
 <br>
@@ -42,6 +40,6 @@
 ## Current Projects
 
 - **[Patine'N'Rythme (PNR)](https://pnr.paris)**, the roller skating rides app I co-founded, in Paris, Toulouse, Lyon and Marseille.
-  - **Web**: [pnr.paris](https://pnr.paris), a static site with a PHP API.
-  - **iOS**: SwiftUI app, [on the App Store](https://apps.apple.com/fr/app/pnr-patinenrythme/id6805887545).
-  - **Android**: Kotlin and Jetpack Compose app.
+  - **Web**: [pnr.paris](https://pnr.paris)
+  - **iOS**: [on the App Store](https://apps.apple.com/fr/app/pnr-patinenrythme/id6805887545)
+  - **Android**: Kotlin and Jetpack Compose
